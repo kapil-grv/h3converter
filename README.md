@@ -1,4 +1,10 @@
-# Convert H3
+# Convert H3 spatial index
+
+A little about H3:
+H3 Geospatial Indexing System by UBER
+Installation of H3 library and other details of H3 could be found in this Git Repo - https://github.com/uber/h3
+
+-----
 
 This package helps you convert h3 hec code directly to geojson and a GeoJSON entity to h3 hex code.
 
