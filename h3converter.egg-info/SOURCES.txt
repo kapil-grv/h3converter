@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+h3converter/__init__.py
+h3converter/h3converter.py
+h3converter/libh3.1.dylib
+h3converter/libh3.dylib
+h3converter/libh3.so
+h3converter/libh3.so.1
+h3converter.egg-info/PKG-INFO
+h3converter.egg-info/SOURCES.txt
+h3converter.egg-info/dependency_links.txt
+h3converter.egg-info/requires.txt
+h3converter.egg-info/top_level.txt
+tests/__init__.py
+tests/testh3converter.py

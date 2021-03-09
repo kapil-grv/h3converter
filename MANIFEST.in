@@ -1,0 +1,3 @@
+include h3converter/*.so
+include h3converter/*.1
+include h3converter/*.dylib
