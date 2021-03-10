@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: h3converter
-Version: 0.0.1
+Version: 0.1.0
 Summary: This package helps you convert h3 hec code directly to geojson and a GeoJSON entity to h3 hex code
 Home-page: https://github.com/kapil-grv/h3converter
 Author: Kapil Gauravan V

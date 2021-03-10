@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="h3converter", # Replace with your own username
-    version="0.0.1",
+    version="0.1.0",
     author="Kapil Gauravan V",
     author_email="kapilgrv@gmail.com",
     description="This package helps you convert h3 hec code directly to geojson and a GeoJSON entity to h3 hex code",

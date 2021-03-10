@@ -3,6 +3,7 @@ import math
 import os
 import time
 import csv
+import site
 import sys
 import json
 import platform
@@ -23,11 +24,11 @@ from ctypes import (
     POINTER,
 )
 
-# _dirname = os.path.dirname('')#h3 installation directory containing the h3 core files
-libh3_path = ('{}'.format('h3converto/libh3.1.dylib')
+_dirname = site.getsitepackages()
+libh3_path = ('{}'.format(str(_dirname[0])+'/h3converter/libh3.1.dylib')
               if platform.system() == 'Darwin' else (
-              '{}/{}'.format(_dirname, 'h3converto/h3.dll') if platform.system() == 'Windows' else
-              '{}/{}'.format(_dirname, 'h3converto/libh3.so.1')))
+              '{}'.format(str(_dirname[0])+'/h3converter/h3.dll') if platform.system() == 'Windows' else
+              '{}'.format(str(_dirname[0])+'/h3converter/libh3.so.1')))
 
 libh3 = cdll.LoadLibrary(libh3_path)
 
